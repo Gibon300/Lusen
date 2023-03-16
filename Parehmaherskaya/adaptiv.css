@@ -1,0 +1,172 @@
+@media screen and (max-width: 1296px) {
+  .nav,
+  main,
+  footer,
+  .price-card-wrapper {
+    width: 768px;
+  }
+  .slider-container {
+    width: 700px;
+    height: 400px;
+    border-radius: 0;
+  }
+  .wrapper_geo {
+    display: flex;
+  }
+
+  .map_1 {
+    display: none;
+  }
+  .map_2 {
+    display: block;
+  }
+  .contact_1 {
+    display: none;
+  }
+  .contact_2 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+  }
+  .wrapper-name,
+  .wrapper-price,
+  .foother-name {
+    font-size: 40px;
+  }
+  .rec-left,
+  .rec-right {
+    height: 10px;
+    width: 24px;
+  }
+  .show-hide p {
+    max-width: 500px;
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 768px) {
+  .nav,
+  main,
+  footer,
+  .price-card-wrapper {
+    width: 480px;
+  }
+  .slider-container {
+    width: 400px;
+    height: 300px;
+    border-radius: 0;
+  }
+  .wrapper-name,
+  .wrapper-price,
+  .foother-name {
+    font-size: 30px;
+  }
+  .rec-left,
+  .rec-right {
+    height: 6px;
+    width: 20px;
+  }
+  .show-hide p {
+    max-width: 450px;
+  }
+  .wrapper_geo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact_2 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+  }
+  .pointer {
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #4788c7;
+  }
+  .navbar {
+    gap: 15px;
+  }
+}
+@media screen and (max-width: 586px) {
+  .logo img {
+    width: 40px;
+  }
+  .logo {
+    left: 0px;
+    top: 1%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .nav,
+  main,
+  footer,
+  .price-card-wrapper {
+    width: 320px;
+  }
+  .slider-container {
+    width: 300px;
+    height: 200px;
+    border-radius: 0;
+  }
+  .slider__dot {
+    width: 9px;
+    height: 9px;
+  }
+  .wrapper-name,
+  .wrapper-price,
+  .foother-name {
+    font-size: 20px;
+  }
+  .rec-left,
+  .rec-right {
+    height: 4px;
+    width: 15px;
+  }
+  .show-hide p {
+    max-width: 290px;
+    text-align: left;
+  }
+  .wrapper_geo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact_2 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    font-size: 13px;
+  }
+  .contact_number {
+    gap: 3px;
+  }
+  .contact_2 img {
+    width: 30px;
+  }
+  .price-card-wrapper-adaptiv {
+    display: flex;
+    width: 300px;
+  }
+  .price-card-wrapper {
+    display: none;
+  }
+  .kanevalustext {
+    width: 300px;
+  }
+  .kanevalustext h1 {
+    font-size: 1.5rem;
+  }
+  .navbar {
+    gap: 20px;
+  }
+  .navbar li {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
