@@ -13,7 +13,7 @@
   .card-8 {
     width: 400px;
   }
-  .card-8 img {
+  .card-8 .img-card img {
     width: 400px;
   }
   .wrapper_geo {
@@ -160,7 +160,7 @@
   .card-8 {
     width: 300px;
   }
-  .card-8 img {
+  .card-8 .img-card img{
     width: 300px;
   }
   .price-card-wrapper {
